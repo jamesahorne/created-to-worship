@@ -1,10 +1,19 @@
 <template>
-  <nav>
-    <ul>
-      <li>Nav</li>
-      <li>Item</li>
-    </ul>
-  </nav>
+  <header class="header">
+    <div class="logo">
+      <nuxt-link class="logo__link" to="/">Created to Worship</nuxt-link>
+    </div>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <nuxt-link class="nav__link" to="/songwriting">Songwriting</nuxt-link>
+        </li>
+        <li class="nav__item">
+          <nuxt-link class="nav__link" to="/">Nav Item</nuxt-link>
+        </li>
+      </ul>
+    </nav>
+  </header>
 </template>
 
 <script>
@@ -14,19 +23,24 @@ export default {
 </script>
 
 <style scoped>
-nav {
-  padding: 2rem 4rem;
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+  max-width: 64rem;
+  margin: 0 auto;
 }
-ul {
+
+.nav__list {
   display: flex;
   justify-content: flex-end;
 }
 
-li {
+.nav__item {
   display: block;
   margin-right: 2rem;
 }
-li:last-child {
+.nav__item:last-child {
   margin-right: 0;
 }
 </style>
