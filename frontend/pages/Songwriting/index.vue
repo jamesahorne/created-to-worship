@@ -4,16 +4,24 @@
     <Info />
     <ul class="videos">
       <li>
-        <Video />
+        <nuxt-link class="block" to="/songwriting/my-life-is-my-worship">
+          <Video />
+        </nuxt-link>
       </li>
       <li>
-        <Video />
+        <nuxt-link class="block" to="/songwriting/my-life-is-my-worship">
+          <Video />
+        </nuxt-link>
       </li>
       <li>
-        <Video />
+        <nuxt-link class="block" to="/songwriting/my-life-is-my-worship">
+          <Video />
+        </nuxt-link>
       </li>
       <li>
-        <Video />
+        <nuxt-link class="block" to="/songwriting/my-life-is-my-worship">
+          <Video />
+        </nuxt-link>
       </li>
     </ul>
   </div>

@@ -1,7 +1,9 @@
 <template>
   <footer class="footer">
-    <p>Some footer info &copy;</p>
-    <p>Contact at <a>this@email.address</a></p>
+    <p>
+      Copyright &copy; 2020 - CURRENT YEAR Created to Worship.
+    </p>
+    <p>Contact at <a href="mailto:this@email.address">this@email.address</a></p>
   </footer>
 </template>
 

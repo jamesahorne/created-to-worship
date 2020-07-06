@@ -43,4 +43,12 @@ html {
 li {
   display: block;
 }
+
+.block {
+  display: block;
+}
+
+.border {
+  border: 1px solid black;
+}
 </style>

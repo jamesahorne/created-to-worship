@@ -1,10 +1,10 @@
 <template>
-  <div class="type">
+  <nuxt-link class="block border" to="/songwriting">
     <h2 class="type__heading">Songwriting</h2>
     <p class="type__description">
       A short description about songwriting/why it's worshipful
     </p>
-  </div>
+  </nuxt-link>
 </template>
 
 <script>
@@ -14,7 +14,10 @@ export default {
 </script>
 
 <style scoped>
-div {
-  margin-bottom: 2rem;
+a {
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+  margin-bottom: 1rem;
 }
 </style>

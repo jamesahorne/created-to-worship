@@ -1,5 +1,5 @@
 <template>
-  <nuxt-link to="/songwriting/my-life-is-my-worship" class="picture">
+  <nuxt-link to="/songwriting/my-life-is-my-worship" class="block border">
     <picture>Picture goes here</picture>
   </nuxt-link>
 </template>
@@ -9,10 +9,3 @@ export default {
   name: 'Picture',
 }
 </script>
-
-<style scoped>
-.picture {
-  display: block;
-  border: 1px solid;
-}
-</style>

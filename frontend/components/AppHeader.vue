@@ -1,8 +1,6 @@
 <template>
   <header class="header">
-    <div class="logo">
-      <nuxt-link class="logo__link" to="/">Created to Worship</nuxt-link>
-    </div>
+    <nuxt-link class="logo" to="/">Created to Worship</nuxt-link>
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__item">
